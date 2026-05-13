@@ -1,1 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+ --main-font-family: Inter-Variable, Roboto;
+ --title-font-family: PressStart2P-Regular, sans-serif;
+ --weight-main-text: 410;
+ --weight-title: 715;
+ --background-image: repeating-linear-gradient(90deg,#d3d3d3, transparent 2px),
+                     repeating-linear-gradient(0 ,#d3d3d3, transparent 2px),
+                     linear-gradient(#e7e7e7 0.01%,#1a1a1a);
+ --background-color:#fff;
+ 
+ --width-of-blocks: clamp(375px,40%,700px);
+ --main-font-color: #000;
+}
