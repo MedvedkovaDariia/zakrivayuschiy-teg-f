@@ -12,7 +12,7 @@
 
 .page {
   max-width: 1440px;
-  padding: 100px clamp(0rem, -8.1426rem + 34.7418vw, 23.125rem);
+  padding: 98px clamp(0rem, -8.1426rem + 34.7418vw, 23.125rem);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@
   text-transform: uppercase;
   max-width: var(--width-of-blocks);
   padding: clamp(7.625rem, 7.4489rem + 0.7512vw, 8.125rem)
-    clamp(1rem, -1.3438rem + 10vw, 7.65625rem);
+          clamp(1rem, -1.3438rem + 10vw, 7.65625rem);
   background-color: #fff;
   box-sizing: border-box;
   margin-bottom: 95px;
