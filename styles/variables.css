@@ -1,13 +1,29 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --main-font-family: Inter-Variable, sans-serif;
-  --title-font-family: PressStart2P-Regular,'Courier';
+  --title-font-family: PressStart2P-Regular, "Courier";
   --main-text-weight: 410;
-  --title-weight: 715;
+  --main-text-line-height: 21px;
+  --title-card-weight: 715;
+  --card-title-size: 18px;
+  --card-text-size: 19px;
+  --label-text-size: 14px;
   --background-image:
-    repeating-linear-gradient(90deg, #d3d3d3, transparent 2px),
-    repeating-linear-gradient(0, #d3d3d3, transparent 2px),
-    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+    repeating-linear-gradient(
+      0deg,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
   --background-color: #fff;
 
   --main-font-color: #000;
