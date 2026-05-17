@@ -1,14 +1,22 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
- --main-font-family: Inter-Variable, Roboto;
- --title-font-family: PressStart2P-Regular, sans-serif;
- --weight-main-text: 410;
- --weight-title: 715;
- --background-image: repeating-linear-gradient(90deg,#d3d3d3, transparent 2px),
-                     repeating-linear-gradient(0 ,#d3d3d3, transparent 2px),
-                     linear-gradient(#e7e7e7 0.01%,#1a1a1a);
- --background-color:#fff;
- 
- --width-of-blocks: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);;
- --main-font-color: #000;
+  --main-font-family: Inter-Variable, Roboto;
+  --title-font-family: PressStart2P-Regular, sans-serif;
+  --weight-main-text: 410;
+  --weight-title: 715;
+  --background-image:
+    repeating-linear-gradient(90deg, #d3d3d3, transparent 2px),
+    repeating-linear-gradient(0, #d3d3d3, transparent 2px),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  --background-color: #fff;
+
+  --main-font-color: #000;
+  --accent-font-color: #fff;
+  --container-width: clamp(280px, 100vw, 700px);
+  --color-of-border: #000;
+  --text-stroke-color: #fff;
+
+  --contour-color: #000;
+  --animation-fill-color: red;
+  --hover-fill-heart: #000;
 }
